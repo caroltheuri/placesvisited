@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
+    <script src="js/script.js" charset="utf-8"></script>
+    <title>Places visited</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-static-top header text-center">
+          <h1>Places visited</h1>
+      </div>
+      <div class="row">
+      <div class="col-md-6">
+        <h2>Tell me where you have been visiting</h2>
+        <form id="new-place">
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" class="form-control">
+          <label for="landmark">Landmark</label>
+          <input type="text" id="landmark" class="form-control">
+          <label for="time-of-year">Time of Year</label>
+          <input type="text" id="time-of-year" class="form-control">
+          <label for="transport">Means of transport</label>
+          <input type="text" id="transport" class="form-control">
+          <label for="duration">Stay Duration</label>
+          <input type="text" id="duration" class="form-control">
+          <label for="feature">Outstanding Feature</label>
+          <input type="text" id="feature" class="form-control">
+          <label for="delicacy">Type of Delicacy enjoyed</label>
+          <input type="text" id="delicacy" class="form-control">
+          </div>
+          <button type="submit" name="button">Check them Out</button>
+        </form>
+
+        <h2>Various Places visited:</h2>
+        <ul id="places">
+
+        </ul>
+      </div>
+        <div class="col-md-6">
+          <div class="show-result">
+          <h2></h2>
+          <p>The place is: <span class="location"></span> </p>
+          <p>The landmark is: <span class="landmark"></span></p>
+          <p>The time of year is: <span class="time-of -year"></span></p>
+          <p>The transportation used was: <span class="transport"></span></p>
+          <p>You stayed for: <span class="duration"></span></p>
+          <p>The outstanding feature you saw was: <span class="feature"></span></p>
+          <p>The delicacy: <span class="delicacy"></span></p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>

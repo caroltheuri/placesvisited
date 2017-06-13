@@ -1,0 +1,16 @@
+.show-result{
+  display:none;
+}
+.place{
+  cursor:ponter;
+  color:blue;
+}
+.place:hover{
+  text-decoration: underline;
+}
+.header{
+  background-color:orange;
+}
+.row{
+background-color: green;
+}
